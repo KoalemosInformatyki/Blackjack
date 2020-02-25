@@ -1,0 +1,17 @@
+Celem jest stworzenie gry blackjack, którą prowadzi się z prostym botem.
+
+Podstawowe cele:
+1. Możliwość wybrania kto rozpoczyna grę.
+2. Informowanie o tym jaka karta została wyciągnięta przez jakiego gracza.
+3. Użytkownik i bot decydują o grze poprzez dobranie karty lub pas.
+4. Stworzenie warunków wygranej/przegranej (przekroczenie 21 puntków kończy się przegraną dla dobierającego lub następuje porównanie punktów po obustronnym spasowaniu).
+5. Bot dobiera karty tylko gdy suma kart dobranych jest mniejsza niż jego własna wartość graniczna.
+
+Dodatkowe cele:
+1. Pytanie po zakończeniu rozrywki czy powtórzyć ją (może być w kliknij x aby wyjść i cokolwiek innego aby zagrać ponownie).
+2. Zabezpieczenie przed wprowadzeniem błędnego znaku przez użytkownika. Gdy coś takiego się zdarzy dać komunikat o powtórnym wprowadzeniu rozkazu.
+
+Uwagi:
+1. Podczas losowanie karty trzeba uważać czy nie jest już w ręce, któregoś gracza. Będzie wymagane użycie tablic.
+2. Poprawność i szybkość doboru kart można sprawdzić poprzez ustawienie maksymalnej liczby punktów na suma punktów talii/2 albo więcej. Wtedy zostaną wyciągnięte wszystkie karty.
+2a. Co się stanie gdy skończą się wszystkie karty? Czy program wyrzuci błąd czy się zawiesi (nie ma potrzeby pisania warunku na brak kart bo nikt w takiego blackjacka nie gra).
